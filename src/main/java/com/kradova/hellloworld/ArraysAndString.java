@@ -45,5 +45,11 @@ public class ArraysAndString {
             System.out.println(equalsOrNot);
             System.out.println(equalsOrNot2);
         }// for
+        
+        //Array
+        
+        int[] userAge;
+        userAge = new int[] {21, 22, 23, 24, 25};
+        
     }// main
 }// class ArraysAndString 
