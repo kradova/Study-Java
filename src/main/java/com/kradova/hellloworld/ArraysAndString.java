@@ -73,6 +73,15 @@ public class ArraysAndString {
         int [] source = {12, 1, 5, -2, 16, 14, 18, 20, 25};
         int[] dest = Arrays.copyOfRange(source, 3, 7);
         
+        //toString() 
+        int[] numbers = {1, 2, 3, 4, 5};
+        System.out.println(Arrays.toString(numbers));
         
+        //sort()
+        int [] numbers2 = {12, 1, 5, -2, 16, 14};
+        Arrays.sort(numbers2);
+        System.out.println(Arrays.toString(numbers2));
+        
+        //binarySearch()
     }// main
 }// class ArraysAndString 
