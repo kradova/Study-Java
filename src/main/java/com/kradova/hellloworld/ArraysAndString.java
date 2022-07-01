@@ -68,5 +68,11 @@ public class ArraysAndString {
         boolean result2 = Arrays.equals(arr1, arr3);
         System.out.println(result1);
         System.out.println(result2);
+        
+        //copyOfRange()
+        int [] source = {12, 1, 5, -2, 16, 14, 18, 20, 25};
+        int[] dest = Arrays.copyOfRange(source, 3, 7);
+        
+        
     }// main
 }// class ArraysAndString 
