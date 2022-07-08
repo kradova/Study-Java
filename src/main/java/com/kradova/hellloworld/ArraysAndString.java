@@ -68,20 +68,26 @@ public class ArraysAndString {
         boolean result2 = Arrays.equals(arr1, arr3);
         System.out.println(result1);
         System.out.println(result2);
-        
+
         //copyOfRange()
-        int [] source = {12, 1, 5, -2, 16, 14, 18, 20, 25};
+        int[] source = {12, 1, 5, -2, 16, 14, 18, 20, 25};
         int[] dest = Arrays.copyOfRange(source, 3, 7);
-        
+
         //toString() 
         int[] numbers = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(numbers));
-        
+
         //sort()
-        int [] numbers2 = {12, 1, 5, -2, 16, 14};
+        int[] numbers2 = {12, 1, 5, -2, 16, 14};
         Arrays.sort(numbers2);
         System.out.println(Arrays.toString(numbers2));
-        
+
         //binarySearch()
+        int[] myInt = {21, 23, 34, 45, 56, 78, 99};
+        int foundIndex = Arrays.binarySearch(myInt, 78);
+        System.out.println(foundIndex);
+        int foundIndex2 = Arrays.binarySearch(myInt, 39);
+        System.out.println(foundIndex2);
+
     }// main
 }// class ArraysAndString 
