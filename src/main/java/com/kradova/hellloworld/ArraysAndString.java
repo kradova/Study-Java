@@ -89,8 +89,10 @@ public class ArraysAndString {
         int foundIndex2 = Arrays.binarySearch(myInt, 39);
         System.out.println(foundIndex2);
 
+        //array length
         int [] userAge4 = {21, 22, 26, 32, 40};
          System.out.println(userAge4.length);
+         
         
     }// main
 }// class ArraysAndString 
