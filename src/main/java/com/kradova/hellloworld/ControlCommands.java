@@ -20,5 +20,9 @@ public class ControlCommands {
             System.out.println("You may sign up for the event!");
 
         }
+
+        int myNum = 3 > 2 ? 10 : 5;
+        System.out.println(myNum);
+
     }
 }
