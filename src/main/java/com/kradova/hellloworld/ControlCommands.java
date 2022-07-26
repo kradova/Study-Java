@@ -6,7 +6,7 @@ public class ControlCommands {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("\nPlease enter your age: ");
+        /*System.out.print("\nPlease enter your age: ");
         int userAge = input.nextInt();
         if (userAge < 0 || userAge > 100) {
             System.out.println("Invalid Age");
@@ -40,7 +40,17 @@ public class ControlCommands {
                 break;
             default:
                 System.out.println("Fail");
-                break;
+               break; */
+
+        //        Циклы
+        // comand for
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
+
+        int[] myNumbers = {10, 20, 30, 40, 50};
+        for (int i = 0; i < myNumbers.length; i++) {
+            System.out.println(myNumbers[i]);
         }
     }
 }
