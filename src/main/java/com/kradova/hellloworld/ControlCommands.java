@@ -52,5 +52,12 @@ public class ControlCommands {
         for (int i = 0; i < myNumbers.length; i++) {
             System.out.println(myNumbers[i]);
         }
+
+        // extended command
+        int[] myNumbers1 = {10, 20, 30, 40, 50};
+        for (int item : myNumbers1) {
+            System.out.println(item);
+        }
+
     }
 }
