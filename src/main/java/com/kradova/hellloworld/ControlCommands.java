@@ -64,6 +64,11 @@ public class ControlCommands {
             System.out.println("Counter = " + counter);
             counter = counter - 1;
         }
-
+        // do-while
+        int counter1 = 100;
+        do {
+            System.out.println("Counter1 = " + counter1);
+            counter1++;
+        } while (counter1 < 0);
     }
 }
