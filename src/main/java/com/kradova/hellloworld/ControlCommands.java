@@ -58,6 +58,12 @@ public class ControlCommands {
         for (int item : myNumbers1) {
             System.out.println(item);
         }
+        // command while
+        int counter = 5;
+        while (counter > 0) {
+            System.out.println("Counter = " + counter);
+            counter = counter - 1;
+        }
 
     }
 }
