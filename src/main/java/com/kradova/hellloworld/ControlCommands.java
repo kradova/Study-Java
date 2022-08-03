@@ -73,7 +73,7 @@ public class ControlCommands {
 
         //Команды перехода
         //command break
-        for (int i = 0; i < 5; i++) {
+        /*  for (int i = 0; i < 5; i++) {
             System.out.println("i = " + i);
             if (i == 2) {
                 break;
@@ -86,6 +86,24 @@ public class ControlCommands {
                 continue;
             }
             System.out.println("I will not be printed if i=2.");
+        }*/
+        //ErrorDemo
+        int num, deno;
+
+        try {
+            System.out.print("Please enter the numerator: ");
+            num = input.nextInt();
+
+            System.out.print("Please enter the denominator: ");
+            deno = input.nextInt();
+
+            System.out.println("The result is " + num / deno);
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        } finally {
+            System.out.println(
+                    "---- End of Error Handling Example ----");
         }
     }
 }
