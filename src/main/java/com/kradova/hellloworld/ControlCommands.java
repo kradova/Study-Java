@@ -40,7 +40,7 @@ public class ControlCommands {
                 break;
             default:
                 System.out.println("Fail");
-               break; */
+               break;
 
         //        Циклы
         // comand for
@@ -69,6 +69,16 @@ public class ControlCommands {
         do {
             System.out.println("Counter1 = " + counter1);
             counter1++;
-        } while (counter1 < 0);
+        } while (counter1 < 0);*/
+
+        //Команды перехода
+        //command break
+        for (int i = 0; i < 5; i++) {
+            System.out.println("i = " + i);
+            if (i == 2) {
+                break;
+            }
+        }
+
     }
 }
